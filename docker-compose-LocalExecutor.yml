@@ -8,7 +8,7 @@ services:
             - POSTGRES_DB=airflow
 
     webserver:
-        image: mabradsher/docker-airflow:1.10.4rc2
+        image: mabradsher/docker-airflow:1.10.4rc3
         restart: always
         depends_on:
             - postgres
